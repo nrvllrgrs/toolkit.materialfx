@@ -1,0 +1,221 @@
+{
+  "sitemap": {
+    "baseUrl": "https://nrvllrgrs.github.io/toolkit.materialfx/"
+  },
+  "source_base_path": "/home/runner/work/toolkit.materialfx/toolkit.materialfx/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.MaterialFX.MaterialEffectEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.MaterialFX.MaterialEffectEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.SubstanceMenuEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.SubstanceMenuEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.MaterialFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.MaterialFX.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.Reaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.Reaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.ReactionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.ReactionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

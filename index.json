@@ -1,0 +1,82 @@
+{
+  "api/ToolkitEditor.MaterialFX.MaterialEffectEditor.html": {
+    "href": "api/ToolkitEditor.MaterialFX.MaterialEffectEditor.html",
+    "title": "Class MaterialEffectEditor | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffectEditor Namespace ToolkitEditor.MaterialFX public class MaterialEffectEditor : BaseToolkitEditor Inheritance object MaterialEffectEditor Fields m_materialEffectType protected SerializedProperty m_materialEffectType Field Value SerializedProperty m_onReaction protected SerializedProperty m_onReaction Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.SubstanceMenuEventArgs.html": {
+    "href": "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.SubstanceMenuEventArgs.html",
+    "title": "Struct ReactionTypeEditor.SubstanceMenuEventArgs | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Struct ReactionTypeEditor.SubstanceMenuEventArgs Namespace ToolkitEditor.MaterialFX public struct ReactionTypeEditor.SubstanceMenuEventArgs Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Fields faction1 public MaterialEffectType faction1 Field Value MaterialEffectType faction2 public MaterialEffectType faction2 Field Value MaterialEffectType reaction public MaterialEffectManagerConfig.Reaction reaction Field Value MaterialEffectManagerConfig.Reaction"
+  },
+  "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.html": {
+    "href": "api/ToolkitEditor.MaterialFX.ReactionTypeEditor.html",
+    "title": "Class ReactionTypeEditor | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class ReactionTypeEditor Namespace ToolkitEditor.MaterialFX public class ReactionTypeEditor : Editor Inheritance object ReactionTypeEditor Fields m_materialEffects protected SerializedProperty m_materialEffects Field Value SerializedProperty m_reactionType protected MaterialEffectManagerConfig m_reactionType Field Value MaterialEffectManagerConfig m_reactions protected SerializedProperty m_reactions Field Value SerializedProperty Properties SelectedIcon public Texture2D SelectedIcon { get; } Property Value Texture2D UnselectedIcon public Texture2D UnselectedIcon { get; } Property Value Texture2D ValidSelectedIcon public Texture2D ValidSelectedIcon { get; } Property Value Texture2D ValidUnselectedIcon public Texture2D ValidUnselectedIcon { get; } Property Value Texture2D Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.MaterialFX.html": {
+    "href": "api/ToolkitEditor.MaterialFX.html",
+    "title": "Namespace ToolkitEditor.MaterialFX | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.MaterialFX Classes MaterialEffectEditor ReactionTypeEditor Structs ReactionTypeEditor.SubstanceMenuEventArgs"
+  },
+  "api/ToolkitEngine.MaterialFX.MaterialEffect.html": {
+    "href": "api/ToolkitEngine.MaterialFX.MaterialEffect.html",
+    "title": "Class MaterialEffect | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffect Namespace ToolkitEngine.MaterialFX public class MaterialEffect : MonoBehaviour Inheritance object MaterialEffect Properties materialEffectType public MaterialEffectType materialEffectType { get; } Property Value MaterialEffectType onReaction public UnityEvent onReaction { get; } Property Value UnityEvent"
+  },
+  "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.html": {
+    "href": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.html",
+    "title": "Class MaterialEffectManagerConfig.FXMaterialPair | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffectManagerConfig.FXMaterialPair Namespace ToolkitEngine.MaterialFX [Serializable] public class MaterialEffectManagerConfig.FXMaterialPair : IEquatable<MaterialEffectManagerConfig.FXMaterialPair> Inheritance object MaterialEffectManagerConfig.FXMaterialPair Implements IEquatable<MaterialEffectManagerConfig.FXMaterialPair> Inherited Members object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors FXMaterialPair(MaterialEffectType, MaterialEffectType) public FXMaterialPair(MaterialEffectType fxMaterial1, MaterialEffectType fxMaterial2) Parameters fxMaterial1 MaterialEffectType fxMaterial2 MaterialEffectType Properties fxMaterial1 public MaterialEffectType fxMaterial1 { get; } Property Value MaterialEffectType fxMaterial2 public MaterialEffectType fxMaterial2 { get; } Property Value MaterialEffectType Methods Equals(object) Determines whether the specified object is equal to the current object. public override bool Equals(object obj) Parameters obj object The object to compare with the current object. Returns bool true if the specified object is equal to the current object; otherwise, false. Equals(FXMaterialPair) Indicates whether the current object is equal to another object of the same type. public bool Equals(MaterialEffectManagerConfig.FXMaterialPair other) Parameters other MaterialEffectManagerConfig.FXMaterialPair An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. GetHashCode() Serves as the default hash function. public override int GetHashCode() Returns int A hash code for the current object."
+  },
+  "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.Reaction.html": {
+    "href": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.Reaction.html",
+    "title": "Class MaterialEffectManagerConfig.Reaction | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffectManagerConfig.Reaction Namespace ToolkitEngine.MaterialFX [Serializable] public class MaterialEffectManagerConfig.Reaction Inheritance object MaterialEffectManagerConfig.Reaction Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties isDefined public bool isDefined { get; } Property Value bool minImpulseThreshold public float minImpulseThreshold { get; } Property Value float"
+  },
+  "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.html": {
+    "href": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.html",
+    "title": "Class MaterialEffectManagerConfig | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffectManagerConfig Namespace ToolkitEngine.MaterialFX public class MaterialEffectManagerConfig : ScriptableObject Inheritance object MaterialEffectManagerConfig Properties fxMaterials public IList<MaterialEffectType> fxMaterials { get; set; } Property Value IList<MaterialEffectType> keys public IEnumerable<MaterialEffectManagerConfig.FXMaterialPair> keys { get; } Property Value IEnumerable<MaterialEffectManagerConfig.FXMaterialPair> Methods RemoveReaction(MaterialEffectType, MaterialEffectType) public bool RemoveReaction(MaterialEffectType a, MaterialEffectType b) Parameters a MaterialEffectType b MaterialEffectType Returns bool SetReaction(MaterialEffectType, MaterialEffectType, Reaction) public void SetReaction(MaterialEffectType a, MaterialEffectType b, MaterialEffectManagerConfig.Reaction reaction) Parameters a MaterialEffectType b MaterialEffectType reaction MaterialEffectManagerConfig.Reaction TryGetReaction(FXMaterialPair, out Reaction) public bool TryGetReaction(MaterialEffectManagerConfig.FXMaterialPair p, out MaterialEffectManagerConfig.Reaction reaction) Parameters p MaterialEffectManagerConfig.FXMaterialPair reaction MaterialEffectManagerConfig.Reaction Returns bool TryGetReaction(MaterialEffectType, MaterialEffectType, out Reaction) public bool TryGetReaction(MaterialEffectType a, MaterialEffectType b, out MaterialEffectManagerConfig.Reaction reaction) Parameters a MaterialEffectType b MaterialEffectType reaction MaterialEffectManagerConfig.Reaction Returns bool"
+  },
+  "api/ToolkitEngine.MaterialFX.MaterialEffectType.html": {
+    "href": "api/ToolkitEngine.MaterialFX.MaterialEffectType.html",
+    "title": "Class MaterialEffectType | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffectType Namespace ToolkitEngine.MaterialFX public class MaterialEffectType : ScriptableObject, IEquatable<MaterialEffectType> Inheritance object MaterialEffectType Implements IEquatable<MaterialEffectType> Properties id public string id { get; } Property Value string Methods Equals(object) public override bool Equals(object obj) Parameters obj object Returns bool Equals(MaterialEffectType) Indicates whether the current object is equal to another object of the same type. public bool Equals(MaterialEffectType other) Parameters other MaterialEffectType An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. GetHashCode() public override int GetHashCode() Returns int"
+  },
+  "api/ToolkitEngine.MaterialFX.ReactionManager.html": {
+    "href": "api/ToolkitEngine.MaterialFX.ReactionManager.html",
+    "title": "Class ReactionManager | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class ReactionManager Namespace ToolkitEngine.MaterialFX public class ReactionManager : Singleton<ReactionManager> Inheritance object ReactionManager Properties reactions public MaterialEffectManagerConfig reactions { get; } Property Value MaterialEffectManagerConfig Methods Spawn(MaterialEffect, Collision) public static void Spawn(MaterialEffect fxMaterialType, Collision collision) Parameters fxMaterialType MaterialEffect collision Collision Spawn(MaterialEffectType, GameObject, Vector3, Vector3) public static void Spawn(MaterialEffectType fxMaterialType, GameObject target, Vector3 point, Vector3 normal) Parameters fxMaterialType MaterialEffectType target GameObject point Vector3 normal Vector3"
+  },
+  "api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.html": {
+    "href": "api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.html",
+    "title": "Class SerializableFXMaterialReaction | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class SerializableFXMaterialReaction Namespace ToolkitEngine.MaterialFX [Serializable] public class SerializableFXMaterialReaction : SerializableDictionary<MaterialEffectManagerConfig.FXMaterialPair, MaterialEffectManagerConfig.Reaction> Inheritance object SerializableFXMaterialReaction"
+  },
+  "api/ToolkitEngine.MaterialFX.html": {
+    "href": "api/ToolkitEngine.MaterialFX.html",
+    "title": "Namespace ToolkitEngine.MaterialFX | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.MaterialFX Classes MaterialEffect MaterialEffectManagerConfig MaterialEffectManagerConfig.FXMaterialPair MaterialEffectManagerConfig.Reaction MaterialEffectType ReactionManager SerializableFXMaterialReaction"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| MaterialFX Toolkit | 1.0.0",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| MaterialFX Toolkit | 1.0.0",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| MaterialFX Toolkit | 1.0.0",
+    "keywords": "MIT License Copyright (c) 2024 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "toolkit.materialfx | MaterialFX Toolkit | 1.0.0",
+    "keywords": "toolkit.materialfx"
+  }
+}
