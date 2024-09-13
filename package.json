@@ -1,0 +1,16 @@
+{
+	"name": "com.toolkit.materialfx",
+	"displayName": "MaterialFX Toolkit",
+	"version": "1.0.0",
+	"unity": "2019.4",
+	"description": "Toolkit for spawning reaction when gameObjects collide.",
+	"keywords": [
+		"toolkit"
+	],
+	"category": "Toolkit",
+	"dependencies": {},
+	"repository": {
+		"url": "https://github.com/nrvllrgrs/toolkit.materialfx",
+		"type": "git"
+	}
+}
