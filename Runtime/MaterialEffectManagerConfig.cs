@@ -6,7 +6,7 @@ using static ToolkitEngine.MaterialFX.MaterialEffectManagerConfig;
 
 namespace ToolkitEngine.MaterialFX
 {
-    [CreateAssetMenu(menuName = "Toolkit/Material FX/Material Effect Manager Config")]
+    [CreateAssetMenu(menuName = "Toolkit/Config/MaterialEffectManager Config")]
     public class MaterialEffectManagerConfig : ScriptableObject
     {
         #region Fields
