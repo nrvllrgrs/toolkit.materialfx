@@ -3,21 +3,8 @@ using static ToolkitEngine.MaterialFX.MaterialEffectManagerConfig;
 
 namespace ToolkitEngine.MaterialFX
 {
-    public class ReactionManager : Singleton<ReactionManager>
+    public class MaterialEffectManager : ConfigurableSubsystem<MaterialEffectManager, MaterialEffectManagerConfig>
     {
-        #region Fields
-
-        [SerializeField]
-        private MaterialEffectManagerConfig m_reactions;
-
-        #endregion
-
-        #region Properties
-
-        public MaterialEffectManagerConfig reactions => m_reactions;
-
-        #endregion
-
         #region Methods
 
         public static void Spawn(MaterialEffectType fxMaterialType, GameObject target, Vector3 point, Vector3 normal)
@@ -26,7 +13,7 @@ namespace ToolkitEngine.MaterialFX
             if (other == null)
                 return;
 
-            if (!Instance.reactions.TryGetReaction(fxMaterialType, other.materialEffectType, out Reaction reaction))
+            if (!CastInstance.Config.TryGetReaction(fxMaterialType, other.materialEffectType, out Reaction reaction))
                 return;
 
             reaction.Instantiate(point, normal);
@@ -43,7 +30,7 @@ namespace ToolkitEngine.MaterialFX
             if (fxMaterialType.GetHashCode() < other.GetHashCode())
                 return;
 
-            if (!Instance.reactions.TryGetReaction(fxMaterialType.materialEffectType, other.materialEffectType, out Reaction reaction)
+            if (!CastInstance.Config.TryGetReaction(fxMaterialType.materialEffectType, other.materialEffectType, out Reaction reaction)
                 || collision.impulse.sqrMagnitude < (reaction.minImpulseThreshold * reaction.minImpulseThreshold)
                 || !reaction.isDefined)
             {

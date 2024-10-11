@@ -31,7 +31,7 @@ namespace ToolkitEngine.MaterialFX
 
         private void OnCollisionEnter(Collision collision)
         {
-            ReactionManager.Spawn(this, collision);
+            MaterialEffectManager.Spawn(this, collision);
         }
 
         #endregion
