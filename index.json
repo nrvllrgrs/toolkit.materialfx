@@ -24,6 +24,11 @@
     "title": "Class MaterialEffect | MaterialFX Toolkit | 1.0.0",
     "keywords": "Class MaterialEffect Namespace ToolkitEngine.MaterialFX public class MaterialEffect : MonoBehaviour Inheritance object MaterialEffect Properties materialEffectType public MaterialEffectType materialEffectType { get; } Property Value MaterialEffectType onReaction public UnityEvent onReaction { get; } Property Value UnityEvent"
   },
+  "api/ToolkitEngine.MaterialFX.MaterialEffectManager.html": {
+    "href": "api/ToolkitEngine.MaterialFX.MaterialEffectManager.html",
+    "title": "Class MaterialEffectManager | MaterialFX Toolkit | 1.0.0",
+    "keywords": "Class MaterialEffectManager Namespace ToolkitEngine.MaterialFX public class MaterialEffectManager : ConfigurableSubsystem<MaterialEffectManager, MaterialEffectManagerConfig> Inheritance object MaterialEffectManager Methods Spawn(MaterialEffect, Collision) public static void Spawn(MaterialEffect fxMaterialType, Collision collision) Parameters fxMaterialType MaterialEffect collision Collision Spawn(MaterialEffectType, GameObject, Vector3, Vector3) public static void Spawn(MaterialEffectType fxMaterialType, GameObject target, Vector3 point, Vector3 normal) Parameters fxMaterialType MaterialEffectType target GameObject point Vector3 normal Vector3"
+  },
   "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.html": {
     "href": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.html",
     "title": "Class MaterialEffectManagerConfig.FXMaterialPair | MaterialFX Toolkit | 1.0.0",
@@ -44,11 +49,6 @@
     "title": "Class MaterialEffectType | MaterialFX Toolkit | 1.0.0",
     "keywords": "Class MaterialEffectType Namespace ToolkitEngine.MaterialFX public class MaterialEffectType : ScriptableObject, IEquatable<MaterialEffectType> Inheritance object MaterialEffectType Implements IEquatable<MaterialEffectType> Properties id public string id { get; } Property Value string Methods Equals(object) public override bool Equals(object obj) Parameters obj object Returns bool Equals(MaterialEffectType) Indicates whether the current object is equal to another object of the same type. public bool Equals(MaterialEffectType other) Parameters other MaterialEffectType An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. GetHashCode() public override int GetHashCode() Returns int"
   },
-  "api/ToolkitEngine.MaterialFX.ReactionManager.html": {
-    "href": "api/ToolkitEngine.MaterialFX.ReactionManager.html",
-    "title": "Class ReactionManager | MaterialFX Toolkit | 1.0.0",
-    "keywords": "Class ReactionManager Namespace ToolkitEngine.MaterialFX public class ReactionManager : Singleton<ReactionManager> Inheritance object ReactionManager Properties reactions public MaterialEffectManagerConfig reactions { get; } Property Value MaterialEffectManagerConfig Methods Spawn(MaterialEffect, Collision) public static void Spawn(MaterialEffect fxMaterialType, Collision collision) Parameters fxMaterialType MaterialEffect collision Collision Spawn(MaterialEffectType, GameObject, Vector3, Vector3) public static void Spawn(MaterialEffectType fxMaterialType, GameObject target, Vector3 point, Vector3 normal) Parameters fxMaterialType MaterialEffectType target GameObject point Vector3 normal Vector3"
-  },
   "api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.html": {
     "href": "api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.html",
     "title": "Class SerializableFXMaterialReaction | MaterialFX Toolkit | 1.0.0",
@@ -57,7 +57,7 @@
   "api/ToolkitEngine.MaterialFX.html": {
     "href": "api/ToolkitEngine.MaterialFX.html",
     "title": "Namespace ToolkitEngine.MaterialFX | MaterialFX Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.MaterialFX Classes MaterialEffect MaterialEffectManagerConfig MaterialEffectManagerConfig.FXMaterialPair MaterialEffectManagerConfig.Reaction MaterialEffectType ReactionManager SerializableFXMaterialReaction"
+    "keywords": "Namespace ToolkitEngine.MaterialFX Classes MaterialEffect MaterialEffectManager MaterialEffectManagerConfig MaterialEffectManagerConfig.FXMaterialPair MaterialEffectManagerConfig.Reaction MaterialEffectType SerializableFXMaterialReaction"
   },
   "api/index.html": {
     "href": "api/index.html",

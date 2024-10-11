@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ReactionManager | MaterialFX Toolkit | 1.0.0 </title>
+      <title>Class MaterialEffectManager | MaterialFX Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReactionManager | MaterialFX Toolkit | 1.0.0 ">
+      <meta name="title" content="Class MaterialEffectManager | MaterialFX Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.materialfx/new/master/apiSpec/new?filename=ToolkitEngine_MaterialFX_ReactionManager.md&amp;value=---%0Auid%3A%20ToolkitEngine.MaterialFX.ReactionManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.materialfx/new/master/apiSpec/new?filename=ToolkitEngine_MaterialFX_MaterialEffectManager.md&amp;value=---%0Auid%3A%20ToolkitEngine.MaterialFX.MaterialEffectManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.MaterialFX.ReactionManager">
+        <article data-uid="ToolkitEngine.MaterialFX.MaterialEffectManager">
 
 
 
-  <h1 id="ToolkitEngine_MaterialFX_ReactionManager" data-uid="ToolkitEngine.MaterialFX.ReactionManager" class="text-break">
-Class ReactionManager  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_MaterialFX_MaterialEffectManager" data-uid="ToolkitEngine.MaterialFX.MaterialEffectManager" class="text-break">
+Class MaterialEffectManager  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class ReactionManager  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ReactionManager : Singleton&lt;ReactionManager&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class MaterialEffectManager : ConfigurableSubsystem&lt;MaterialEffectManager, MaterialEffectManagerConfig&gt;</code></pre>
   </div>
 
 
@@ -111,45 +111,10 @@ Class ReactionManager  <a class="header-action link-secondary" title="View sourc
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ReactionManager</span></div>
+      <div><span class="xref">MaterialEffectManager</span></div>
     </dd>
   </dl>
 
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="ToolkitEngine_MaterialFX_ReactionManager_reactions_" data-uid="ToolkitEngine.MaterialFX.ReactionManager.reactions*"></a>
-
-  <h3 id="ToolkitEngine_MaterialFX_ReactionManager_reactions" data-uid="ToolkitEngine.MaterialFX.ReactionManager.reactions">
-  reactions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MaterialEffectManagerConfig reactions { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.html">MaterialEffectManagerConfig</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -162,11 +127,11 @@ Class ReactionManager  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
-  <a id="ToolkitEngine_MaterialFX_ReactionManager_Spawn_" data-uid="ToolkitEngine.MaterialFX.ReactionManager.Spawn*"></a>
+  <a id="ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_" data-uid="ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn*"></a>
 
-  <h3 id="ToolkitEngine_MaterialFX_ReactionManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffect_Collision_" data-uid="ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect,Collision)">
+  <h3 id="ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffect_Collision_" data-uid="ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect,Collision)">
   Spawn(MaterialEffect, Collision)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -195,11 +160,11 @@ Class ReactionManager  <a class="header-action link-secondary" title="View sourc
 
 
 
-  <a id="ToolkitEngine_MaterialFX_ReactionManager_Spawn_" data-uid="ToolkitEngine.MaterialFX.ReactionManager.Spawn*"></a>
+  <a id="ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_" data-uid="ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn*"></a>
 
-  <h3 id="ToolkitEngine_MaterialFX_ReactionManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffectType_GameObject_Vector3_Vector3_" data-uid="ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType,GameObject,Vector3,Vector3)">
+  <h3 id="ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffectType_GameObject_Vector3_Vector3_" data-uid="ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType,GameObject,Vector3,Vector3)">
   Spawn(MaterialEffectType, GameObject, Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.materialfx/blob/master/Runtime/MaterialEffectManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

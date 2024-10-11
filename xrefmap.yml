@@ -215,6 +215,31 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.MaterialFX.MaterialEffect.onReaction
   nameWithType: MaterialEffect.onReaction
+- uid: ToolkitEngine.MaterialFX.MaterialEffectManager
+  name: MaterialEffectManager
+  href: api/ToolkitEngine.MaterialFX.MaterialEffectManager.html
+  commentId: T:ToolkitEngine.MaterialFX.MaterialEffectManager
+  fullName: ToolkitEngine.MaterialFX.MaterialEffectManager
+  nameWithType: MaterialEffectManager
+- uid: ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect,Collision)
+  name: Spawn(MaterialEffect, Collision)
+  href: api/ToolkitEngine.MaterialFX.MaterialEffectManager.html#ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffect_Collision_
+  commentId: M:ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect,Collision)
+  fullName: ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect, Collision)
+  nameWithType: MaterialEffectManager.Spawn(MaterialEffect, Collision)
+- uid: ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType,GameObject,Vector3,Vector3)
+  name: Spawn(MaterialEffectType, GameObject, Vector3, Vector3)
+  href: api/ToolkitEngine.MaterialFX.MaterialEffectManager.html#ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffectType_GameObject_Vector3_Vector3_
+  commentId: M:ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType,GameObject,Vector3,Vector3)
+  fullName: ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType, GameObject, Vector3, Vector3)
+  nameWithType: MaterialEffectManager.Spawn(MaterialEffectType, GameObject, Vector3, Vector3)
+- uid: ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn*
+  name: Spawn
+  href: api/ToolkitEngine.MaterialFX.MaterialEffectManager.html#ToolkitEngine_MaterialFX_MaterialEffectManager_Spawn_
+  commentId: Overload:ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn
+  isSpec: "True"
+  fullName: ToolkitEngine.MaterialFX.MaterialEffectManager.Spawn
+  nameWithType: MaterialEffectManager.Spawn
 - uid: ToolkitEngine.MaterialFX.MaterialEffectManagerConfig
   name: MaterialEffectManagerConfig
   href: api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.html
@@ -470,44 +495,6 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.MaterialFX.MaterialEffectType.id
   nameWithType: MaterialEffectType.id
-- uid: ToolkitEngine.MaterialFX.ReactionManager
-  name: ReactionManager
-  href: api/ToolkitEngine.MaterialFX.ReactionManager.html
-  commentId: T:ToolkitEngine.MaterialFX.ReactionManager
-  fullName: ToolkitEngine.MaterialFX.ReactionManager
-  nameWithType: ReactionManager
-- uid: ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect,Collision)
-  name: Spawn(MaterialEffect, Collision)
-  href: api/ToolkitEngine.MaterialFX.ReactionManager.html#ToolkitEngine_MaterialFX_ReactionManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffect_Collision_
-  commentId: M:ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect,Collision)
-  fullName: ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffect, Collision)
-  nameWithType: ReactionManager.Spawn(MaterialEffect, Collision)
-- uid: ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType,GameObject,Vector3,Vector3)
-  name: Spawn(MaterialEffectType, GameObject, Vector3, Vector3)
-  href: api/ToolkitEngine.MaterialFX.ReactionManager.html#ToolkitEngine_MaterialFX_ReactionManager_Spawn_ToolkitEngine_MaterialFX_MaterialEffectType_GameObject_Vector3_Vector3_
-  commentId: M:ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType,GameObject,Vector3,Vector3)
-  fullName: ToolkitEngine.MaterialFX.ReactionManager.Spawn(ToolkitEngine.MaterialFX.MaterialEffectType, GameObject, Vector3, Vector3)
-  nameWithType: ReactionManager.Spawn(MaterialEffectType, GameObject, Vector3, Vector3)
-- uid: ToolkitEngine.MaterialFX.ReactionManager.Spawn*
-  name: Spawn
-  href: api/ToolkitEngine.MaterialFX.ReactionManager.html#ToolkitEngine_MaterialFX_ReactionManager_Spawn_
-  commentId: Overload:ToolkitEngine.MaterialFX.ReactionManager.Spawn
-  isSpec: "True"
-  fullName: ToolkitEngine.MaterialFX.ReactionManager.Spawn
-  nameWithType: ReactionManager.Spawn
-- uid: ToolkitEngine.MaterialFX.ReactionManager.reactions
-  name: reactions
-  href: api/ToolkitEngine.MaterialFX.ReactionManager.html#ToolkitEngine_MaterialFX_ReactionManager_reactions
-  commentId: P:ToolkitEngine.MaterialFX.ReactionManager.reactions
-  fullName: ToolkitEngine.MaterialFX.ReactionManager.reactions
-  nameWithType: ReactionManager.reactions
-- uid: ToolkitEngine.MaterialFX.ReactionManager.reactions*
-  name: reactions
-  href: api/ToolkitEngine.MaterialFX.ReactionManager.html#ToolkitEngine_MaterialFX_ReactionManager_reactions_
-  commentId: Overload:ToolkitEngine.MaterialFX.ReactionManager.reactions
-  isSpec: "True"
-  fullName: ToolkitEngine.MaterialFX.ReactionManager.reactions
-  nameWithType: ReactionManager.reactions
 - uid: ToolkitEngine.MaterialFX.SerializableFXMaterialReaction
   name: SerializableFXMaterialReaction
   href: api/ToolkitEngine.MaterialFX.SerializableFXMaterialReaction.html

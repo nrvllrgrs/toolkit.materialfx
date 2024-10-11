@@ -65,6 +65,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectManagerConfig.FXMaterialPair.yml",
       "output": {
         ".html": {
@@ -99,16 +109,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.MaterialFX.MaterialEffectType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.MaterialFX.ReactionManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.MaterialFX.ReactionManager.html"
         }
       },
       "version": ""
